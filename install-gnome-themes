@@ -72,6 +72,7 @@ if [ "$REQUIREMENTS" == 1 ]; then
 	message "Verifying that build requirements are installed..."
 
 	if [ "$OS" == 'Debian' ] ||
+	   [ "$OS" == 'Kali' ] ||
            [ "$OS" == 'Ubuntu' ] ||
            [ "$OS" == 'LinuxMint' ] ||
            [ "$OS" == 'SPERIX-OS' ]; then
